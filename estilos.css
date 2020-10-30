@@ -1,0 +1,758 @@
+
+/* Configuraciones generales de estilos para toda la we */
+
+html {
+font-family: 'Manrope', sans-serif;
+box-sizing: border-box;
+
+}
+
+
+/* Estilos de la HOME */
+
+.banner_home {
+	position: relative;
+	text-align: left;
+	color: white;
+	width: 100%
+}
+
+@media only screen and (max-width: 600px) {
+  .banner_home {
+    margin-top: 12vw;
+  }
+}
+
+.texto_top_left {
+  
+  position: absolute;
+  top: 10vw;
+  left: 4vw;
+  font-size: 3.5vw;
+  line-height: 4vw; 
+ 
+}
+
+.subtexto_bottom_left {
+  
+  position: absolute;
+  top: 19vw;
+  left: 4vw;
+  font-size: 1.8vw;
+  line-height: 2.4vw; 
+
+}
+
+#boton_home1 {
+
+  position: absolute;
+  top: 25.5vw;
+  left: 4vw;
+  font-size: 1.3vw;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+
+}
+
+#boton_home1:hover {
+
+  position: absolute;
+  top: 25.5vw;
+  left: 4vw;
+  font-size: 1.3vw;
+  color: white;
+  background-color: orange;
+  border-color: orange;
+
+}
+
+
+/* home block 1 */
+
+.home_block1 {
+
+	background-color: #f5f5fa;
+	height: 52vw;
+	top: 4vw;
+
+}
+
+.texto_block1 {
+  
+  position: relative;
+  font-size: 2.3vw;
+  line-height: 2.2vw;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 4vw; 
+
+}
+
+#imagen_home_block1 {
+	
+	
+}
+
+.link_descubri_como {
+
+	text-align: center;
+	font-size: 1.6vw;
+	line-height: 5.2vw;
+}
+
+/* home block 2 */
+
+.home_block2 {
+
+	background-color: #f5f5fa;
+	height: 52vw;
+	top: 4vw;
+
+}
+
+.texto_block2 {
+  
+  position: relative;
+  font-size: 2.3vw;
+  line-height: 2.2vw;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 4vw;
+
+
+}
+
+#imagen_home_block2 {
+ 
+
+}
+
+.link_buscador {
+
+	text-align: center;
+	font-size: 1.6vw;
+	line-height: 5.2vw;
+
+}
+
+/* conjunto de los 2 primeros blocks de la home
+para que me queden uno al lado del otro uso flexbox */
+
+.dos_blocks_home {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	top: 4vw;
+  	
+
+}
+
+/* sigo con el banner de los beneficios */
+
+
+.titulo_beneficios {
+	text-align: center;
+	font-size: 2.5vw;
+	font-weight: bolder;
+	top: 7vw;
+	line-height: 3vw;
+
+}
+
+.banner_beneficios {
+	display: flex;
+	flex-direction: row;
+	top: 10vw;
+	font-size: 1.5vw;
+	text-align: center;
+
+}
+
+
+div div svg {
+	color: #008df8;
+	margin-top: 5vw;
+
+
+}
+
+
+.vos_tuyos {
+
+	display: flex;
+	top: 10vw;
+	height: 27vw;
+	justify-content: center;
+	
+
+}
+
+.texto_vos_tuyos {
+
+	display: flex;
+	font-size: 1.9vw;
+	align-items: center;
+	text-align: center;
+	
+}
+
+
+.botones_precios {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+#boton_precios {
+
+  display: flex;
+  position: relative;
+  top: 2vw;  
+  font-size: 1.3vw;
+  color: white;
+  background-color: #008df8;
+  border-color: #008df8;
+  
+
+}
+
+#boton_precios:hover {
+
+  position: relative;
+  top: 2vw;  
+  font-size: 1.3vw;
+  color: white;
+  background-color: orange;
+  border-color: orange;
+
+}
+
+.footer {
+	position: relative;
+	top: 15vw;
+	display: flex;
+	flex-direction: row;
+	background-color: #008df8;
+	justify-content: space-around;
+	height: 7vw;
+	align-items: center;
+	text-align: center;
+	font-size: 1.5vw;
+	color: white;
+}
+
+footer div ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+/* Estilos de SOBRE_NOSOTROS */
+
+.sobre_nosotros_banner {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	position: relative;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .sobre_nosotros_banner {
+    margin-top: 12vw;
+  }
+}
+
+.sobre_imagen_banner {
+
+	top: 3vw;
+	width: 100%;
+}
+
+.sobre_texto_banner {
+
+	font-size: 1.7vw;
+	top: 18vw;
+	height: 20vw;
+	
+}
+
+
+#boton_sobre1 {
+
+  position: absolute;
+  top: 35.5vw;
+  left: 9.3vw;
+  font-size: 1.3vw;
+  color: white;
+  background-color: #008df8;
+  border-color: #008df8;
+
+}
+
+#boton_sobre1:hover {
+
+  position: absolute;
+  top: 35.5vw;
+  left: 9.3vw;
+  font-size: 1.3vw;
+  color: white;
+  background-color: orange;
+  border-color: orange;
+
+}
+
+
+
+
+.content--estadisticas-numeros {
+	display: flex;
+	text-align: center;
+	height: 30vw;
+	margin-top: 7vw;
+	font-size: 2vw;
+	line-height: 2.7vw;
+
+
+}
+
+.dos_estadisticas {
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+
+@media only screen and (max-width: 700px) {
+.dos_estadisticas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  div .contador {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+}
+
+/* propiedades de la animacion de los contadores*/
+
+.contador {
+  animation-iteration-count: 2;
+  
+}
+
+
+
+
+
+.staff {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+
+}
+	
+@media only screen and (max-width: 700px) {
+.staff {
+
+	margin-top: 40vw;
+
+  }
+}
+
+
+
+.staff_nicolas {
+
+	width: 100%;
+
+}
+
+.nombre_nicolas {
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.7vw;
+	margin-left: 3vw;
+	margin-right: 3vw;
+}
+
+.staff_luis {
+
+	width: 100%;
+	align-items: flex-end;
+	 
+}
+
+.nombre_luis {
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.7vw;
+	margin-left: 3vw;
+	margin-right: 3vw;
+
+}
+
+.staff_pedro {
+
+	width: 100%;
+}
+
+.nombre_pedro {
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.7vw;
+	margin-left: 3vw;
+	margin-right: 3vw;
+
+}
+
+.footer2 {
+	
+	display: flex;
+	flex-direction: row;
+	background-color: #008df8;
+	justify-content: space-around;
+	height: 7vw;
+	align-items: center;
+	text-align: center;
+	font-size: 1.5vw;
+	color: white;
+}
+
+
+footer div ul li {
+	
+   margin:0px 0px 0px 2vw;   
+}
+
+
+
+/* Estilos de COMO_FUNCIONA */
+
+.banner_como_funciona {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+@media only screen and (max-width: 800px) {
+ .banner_como_funciona {
+    margin-top: 8vw;
+  }
+}
+
+
+.texto_banner_funciona {
+
+	display: flex;
+	background-color: #f5f5fa;
+	height: 60vw;
+	font-size: 3.4vw;
+	font-weight: bolder;
+	line-height: 3vw;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+
+}
+
+@media only screen and (max-width: 1200px) {
+.texto_banner_funciona {
+    height: 67vw;
+  }
+}
+
+
+.bajada_banner_funciona {
+
+	position: absolute;
+	font-size: 1.2vw;
+	text-align: center;
+	line-height: 1.6vw;
+	width: 70%;
+	margin-top: 12vw;
+
+}
+
+.imagen_banner_funciona {
+
+	display: flex;
+	background-color: #f5f5fa;
+
+}
+
+#card-body {
+
+	text-align: center;
+}
+
+.card {
+	margin: 1.6vw;
+	border-color: transparent;
+	border-width: 3px;
+}
+
+.funciona_banner_final {
+	
+	margin-top: 7vw;
+	height: 20vw;
+	display: flex;
+	justify-content: center;
+}
+
+.funciona_banner_texto {
+	display: flex;
+	font-size: 2.4vw;
+	align-items: center;
+	line-height: 2.2vw;
+	margin-left: 2vw;
+
+}	
+
+.logo_app {
+	display: flex;
+	width: 15vw;
+	height: 15vw;
+	align-items: center;
+	margin-top: 2vw;
+}
+
+.footer_funciona {
+
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	background-color: #008df8;
+	justify-content: space-around;
+	height: 7vw;
+	align-items: center;
+	text-align: center;
+	font-size: 1.5vw;
+	color: white;
+}
+
+/* Estilos de SERVICIOS */
+
+
+.header_servicio {
+	position: relative;
+}
+
+@media only screen and (max-width: 500px) {
+.header_servicio {
+    margin-top: 5vw;
+  }
+}
+
+.headerservicios--texto-titulo1 {
+
+  position: absolute;
+  top: 13vw;
+  left: 40vw;
+  font-size: 1.8vw;
+
+}
+
+.headerservicios--texto-titulo2 {
+
+  position: absolute;
+  top: 50vw;
+  left: 20vw;
+  font-size: 1.8vw; 
+
+}
+
+.headerservicios--texto-titulo3 {
+
+  position: absolute;
+  top: 85vw;
+  left: 40vw;
+  font-size: 1.8vw;
+
+}
+
+.headerservicios--texto-titulo4 {
+
+  position: absolute;
+  top: 140vw;
+  left: 4vw;
+  font-size: 1.8vw; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos de PRECIOS */
+
+
+.header--banner-transparent {
+
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.header--banner-titulo {
+
+	display: flex;
+	margin-top: 6vw;
+	justify-content: center;
+	align-items: center;
+	margin-top: 12vw;
+	
+}
+
+.header--banner-subtitulo {
+
+	display: flex;
+	margin-top: 6vw;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 0vw;
+}
+
+@media only screen and (max-width: 500px) {
+.header--banner-transparent {
+    margin-top: 8vw;
+
+  }
+}
+
+
+
+/* Estilos de CONTACTO */
+
+
+
+.header--banner-ayuda {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	
+}
+
+
+.banner_contacto {
+	display: flex;
+	position: relative;
+	margin-top: 12vw;
+	
+}
+
+.header--bannerayuda-titulo{
+
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	margin-top: 10vw;
+	text-align: center;
+	font-size: 3vw;
+	font-weight: bold;
+	line-height: 2.7vw;
+	
+}
+
+.header--bannerayuda-subtitulo{
+
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	margin-top: 14vw;
+	text-align: center;
+	font-size: 2vw;
+	line-height: 2.7vw;
+	
+}
+
+
+@media only screen and (max-width: 700px) {
+.header--bannerayuda-titulo {
+    margin-top: 18vw;
+
+  }
+}
+
+@media only screen and (max-width: 700px) {
+.header--bannerayuda-subtitulo {
+    margin-top: 22vw;
+
+  }
+}
+
+
+.form_exterior {
+	
+	margin-right: 7vw;
+	margin-left: 7vw;
+	margin-top: 7vw;
+	
+}
+
+textarea {
+
+	width: 60vw;
+	height: 30vw;
+}
+
+
+
+#footer_contacto {
+	position: relative;
+	top: 4vw;
+	display: flex;
+	flex-direction: row;
+	background-color: #008df8;
+	justify-content: space-around;
+	height: 7vw;
+	align-items: center;
+	text-align: center;
+	font-size: 1.5vw;
+	color: white;
+}
+
+
+

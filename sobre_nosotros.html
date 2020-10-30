@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Terapi App</title>
+
+<!-- link de bootstrap -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+<!-- link a mi hoja de estilos .css -->
+
+<link rel="stylesheet" type="text/css" href="estilos.css">
+
+
+<!-- link a google fonts -->
+
+<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+
+<!-- link a animaciones css -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+
+
+<body>
+	
+
+<!-- navigation menu sacado de bootstrap -->
+
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="index.html">Terapi</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="sobre_nosotros.html">Sobre Nosotros <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="como_funciona.html">Cómo Funciona</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="servicios.html">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="planes.html">Planes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </li>
+    
+    </ul>
+  </div>
+
+</nav>
+
+
+
+
+
+<div class="sobre_nosotros_banner">
+
+	<div class="sobre_texto_banner col-xl-6">
+
+		<b>Creemos en la importancia del diálogo.</b><br>
+		Sabemos que no es fácil sentirse bien todo el tiempo y a veces necesitamos hablar acerca de nuestras emociones y pensamientos.<br>
+		En Terapi tenemos un profesional que podrá acompañarte en el proceso de volver a sentirte mejor.
+		
+	</div>
+
+
+	<div class="sobre_imagen_banner col-xl-5">
+
+		<img src="img/sobre_banner1.png" class="img-fluid" alt="app">
+
+	</div>
+
+	<a id="boton_sobre1" class="btn btn-outline-primary" href="como_funciona.html" role="button">Descubrinos</a>
+
+</div>
+
+
+
+
+
+
+<content class="content--estadisticas-numeros">
+
+
+<div class="dos_estadisticas col-xl-6">
+
+	<div class="card" style="width: 18rem;">
+
+	  <div class="card-body">
+
+		<svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-people" fill="#008df8" xmlns="http://www.w3.org/2000/svg">
+		  <path fill-rule="evenodd" d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1h7.956a.274.274 0 0 0 .014-.002l.008-.002c-.002-.264-.167-1.03-.76-1.72C13.688 10.629 12.718 10 11 10c-1.717 0-2.687.63-3.24 1.276-.593.69-.759 1.457-.76 1.72a1.05 1.05 0 0 0 .022.004zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10c-1.668.02-2.615.64-3.16 1.276C1.163 11.97 1 12.739 1 13h3c0-1.045.323-2.086.92-3zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+		</svg>
+
+		<div class="contador animate__animated animate__bounce">
+
+	    <p class="card-text"><b>1753</b><br>Usuarios únicos</p>
+		</div>
+
+	  </div>
+	</div>
+
+
+
+	<div class="card" style="width: 18rem;">
+	  
+	  <div class="card-body">
+
+	<svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-eyeglasses" fill="#008df8" xmlns="http://www.w3.org/2000/svg">
+			  <path fill-rule="evenodd" d="M4 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm2.625.547a3 3 0 0 0-5.584.953H.5a.5.5 0 0 0 0 1h.541A3 3 0 0 0 7 8a1 1 0 0 1 2 0 3 3 0 0 0 5.959.5h.541a.5.5 0 0 0 0-1h-.541a3 3 0 0 0-5.584-.953A1.993 1.993 0 0 0 8 6c-.532 0-1.016.208-1.375.547zM14 8a2 2 0 1 0-4 0 2 2 0 0 0 4 0z"/>
+			</svg>
+
+		<div class="contador animate__animated animate__bounce">
+	    <p class="card-text"><b>258</b><br>Terapeutas</p>
+		</div>
+
+	  </div>
+	</div>
+
+</div>
+
+
+
+<div class="dos_estadisticas col-xl-6">
+
+	<div class="card" style="width: 18rem;">
+	 
+	  <div class="card-body">
+
+	<svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-door-open" fill="#008df8" xmlns="http://www.w3.org/2000/svg">
+			  <path fill-rule="evenodd" d="M1 15.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM11.5 2H11V1h.5A1.5 1.5 0 0 1 13 2.5V15h-1V2.5a.5.5 0 0 0-.5-.5z"/>
+			  <path fill-rule="evenodd" d="M10.828.122A.5.5 0 0 1 11 .5V15h-1V1.077l-6 .857V15H3V1.5a.5.5 0 0 1 .43-.495l7-1a.5.5 0 0 1 .398.117z"/>
+			  <path d="M8 9c0 .552.224 1 .5 1s.5-.448.5-1-.224-1-.5-1-.5.448-.5 1z"/>
+			</svg>
+
+		<div class="contador animate__animated animate__bounce">
+	    <p class="card-text"><b>5636</b><br>Sesiones mensuales</p>
+		</div>
+
+	  </div>
+	</div>
+
+
+
+	<div class="card" style="width: 18rem;">
+	 
+	  <div class="card-body">
+
+	  	<svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-clock" fill="#008df8" xmlns="http://www.w3.org/2000/svg">
+		  <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z"/>
+		  <path fill-rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
+		</svg>
+
+		<div class="contador animate__animated animate__bounce">
+
+	    <p class="card-text"><b>13.278</b><br>Horas mensuales de sesión</p>
+
+	    </div>
+
+	  </div>
+	</div>
+
+</div>
+
+</content>
+
+
+
+
+
+
+
+
+<div class="staff">
+
+
+	
+	<img class="staff_nicolas" src="img/nicolas.png" class="img-fluid" alt="staff_nicolas">
+
+	<div class="nombre_nicolas">
+		
+		Nicolás Moro<br>
+		CEO<br>
+
+		Licenciado en Publicidad en la ciudad de Buenos Aires. Durante sus primeros años trabajó en varias de las más reconocidad agencias de publicidad para luego migrar a la gestión de proyectos.
+		En el año 2019 funda junto a sus socios la plataforma Terapi. 
+
+	</div>
+
+	<div class="nombre_luis">
+		
+		Luis Vicien<br>
+		CFO<br>
+
+		Licenciado en Economía en la ciudad de Buenos Aires. Trabajó desde sus inicios en los corredores de bolsa más importantes del país. Realizó un Máster en Finanzas en la Universidad Del Salvador.
+		En 2019 se convierte en el principal inversor de Terapi.com.ar
+
+	</div>
+
+	<img class="staff_luis" src="img/luis.png" class="img-fluid" alt="staff_luis">
+
+	<img class="staff_pedro" src="img/pedro.png" class="img-fluid" alt="staff_pedro">
+
+	<div class="nombre_pedro">
+
+		Pedro Beltramino<br>
+		COO<br>
+
+		Ingeniero Químico recibido en el Instituto Tecnológico de Buenos Aires en 2015. Trabajó varios años para Exxon Inc. como responsable de proyectos para LATAM. Fundó su empresa de fabricación de cerveza y desde 2020 se incorporó a Terapi. 
+		
+
+	</div>
+
+</div>
+
+
+
+
+
+
+
+<!-- Por ultimo viene el footer de la home donde estara la informacion de redes sociales y mail de contacto -->
+
+<footer class="footer2">
+	
+	<div>www.terapi.com.ar</div>
+
+	<div>Contacto: hola@terapi.com.ar</div>
+
+	<div>
+		<ul>¡Visita nuestras redes sociales!
+			<li>Facebook</li>
+			<li>Twitter</li>
+			<li>Instagram</li>
+		</ul>
+		
+	</div>
+		
+</footer>
+
+
+
+<!-- link a scripts de Bootstrap para que funcione -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
