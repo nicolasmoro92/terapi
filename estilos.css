@@ -1,4 +1,4 @@
-
+		
 /* Configuraciones generales de estilos para toda la we */
 
 html {
@@ -70,6 +70,7 @@ box-sizing: border-box;
 
 /* home block 1 */
 
+
 .home_block1 {
 
 	background-color: #f5f5fa;
@@ -89,10 +90,6 @@ box-sizing: border-box;
 
 }
 
-#imagen_home_block1 {
-	
-	
-}
 
 .link_descubri_como {
 
@@ -123,10 +120,7 @@ box-sizing: border-box;
 
 }
 
-#imagen_home_block2 {
- 
 
-}
 
 .link_buscador {
 
@@ -146,17 +140,15 @@ para que me queden uno al lado del otro uso flexbox */
 	justify-content: space-around;
 	top: 4vw;
   	
-
 }
 
 /* sigo con el banner de los beneficios */
-
 
 .titulo_beneficios {
 	text-align: center;
 	font-size: 2.5vw;
 	font-weight: bolder;
-	top: 7vw;
+	top: 15vw;
 	line-height: 3vw;
 
 }
@@ -164,25 +156,16 @@ para que me queden uno al lado del otro uso flexbox */
 .banner_beneficios {
 	display: flex;
 	flex-direction: row;
-	top: 10vw;
+	top: 22vw;
 	font-size: 1.5vw;
 	text-align: center;
 
 }
 
-
-div div svg {
-	color: #008df8;
-	margin-top: 5vw;
-
-
-}
-
-
 .vos_tuyos {
 
 	display: flex;
-	top: 10vw;
+	top: 20vw;
 	height: 27vw;
 	justify-content: center;
 	
@@ -192,6 +175,7 @@ div div svg {
 .texto_vos_tuyos {
 
 	display: flex;
+	margin-top: 35vw;
 	font-size: 1.9vw;
 	align-items: center;
 	text-align: center;
@@ -211,7 +195,7 @@ div div svg {
 
   display: flex;
   position: relative;
-  top: 2vw;  
+  top: 15vw;  
   font-size: 1.3vw;
   color: white;
   background-color: #008df8;
@@ -223,7 +207,7 @@ div div svg {
 #boton_precios:hover {
 
   position: relative;
-  top: 2vw;  
+  top: 15vw;  
   font-size: 1.3vw;
   color: white;
   background-color: orange;
@@ -231,9 +215,89 @@ div div svg {
 
 }
 
+/* configuraciones responsive con mediaquery */
+
+
+@media only screen and (max-width: 700px) {
+  .dos_blocks_home {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.home_block1 {
+  	height: 100vw;
+  	margin-top: 10vw;
+  }
+
+ .texto_block1 {
+ 	font-size: 5vw;
+ 	line-height: 6vw;
+ }
+
+ .link_descubri_como {
+ 	font-size: 3vw;
+ }
+
+
+  .home_block2 {
+
+  	margin-top: 40vw;
+  	height: 100vw;
+  }
+
+.texto_block2 {
+ 	font-size: 5vw;
+ 	line-height: 6vw;
+ }
+
+ .link_buscador {
+ 	font-size: 3vw;
+ }
+
+.titulo_beneficios {
+
+	margin-top: 18vw;
+	font-size: 4vw;
+	line-height: 4vw;	
+	}
+
+.banner_beneficios {
+	display: flex;
+	flex-direction: column;
+	font-size: 3vw;
+	}
+
+
+.texto_vos_tuyos {
+	margin-top: 40vw;
+	font-size: 3vw;
+
+	}
+
+.botones_precios {
+
+	margin-top: 15vw;
+	}
+
+}
+
+/* termine con las settings para responsive */
+
+
+div div svg {
+	color: #008df8;
+	margin-top: 5vw;
+
+
+}
+
+
+
+
 .footer {
 	position: relative;
-	top: 15vw;
+	top: 24vw;
 	display: flex;
 	flex-direction: row;
 	background-color: #008df8;
@@ -245,12 +309,39 @@ div div svg {
 	color: white;
 }
 
+
+
+
+#logofacebook {
+
+	width: 2vw;
+	height: 2vw;
+}
+
+#logotwitter {
+
+	width: 2vw;
+	height: 2vw;
+}
+
+#logoinstagram {
+
+	width: 2vw;
+	height: 2vw;
+}
+
+
 footer div ul {
 	list-style: none;
 	display: flex;
 	flex-direction: row;
 	margin: auto;
 }
+
+
+
+
+
 
 
 
@@ -271,11 +362,6 @@ footer div ul {
 
 }
 
-@media only screen and (max-width: 700px) {
-  .sobre_nosotros_banner {
-    margin-top: 12vw;
-  }
-}
 
 .sobre_imagen_banner {
 
@@ -339,14 +425,51 @@ footer div ul {
 
 
 @media only screen and (max-width: 700px) {
+  .sobre_nosotros_banner {
+    margin-top: 12vw;
+  }
+
 .dos_estadisticas {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
+    font-size: 4vw;
   }
+
+
+.card-body {
+	line-height: 16vw;
+}  
+
+.card-text {
+	font-size: 5vw;
+	line-height: 7vw;
+	}
+
+.sobre_nosotros_banner {
+	display: flex;
+	flex-direction: column;
 }
+
+.sobre_texto_banner {
+	font-size: 4vw;
+	text-align: center;
+
+}
+
+#boton_sobre1 {
+	
+	margin-top: 28vw;
+	margin-left: 25vw;
+	font-size: 3.5vw;
+}
+
+.sobre_imagen_banner {
+	margin-top: 45vw;
+	}
+
+}
+
 
 
 @media only screen and (max-width: 700px) {
@@ -365,8 +488,6 @@ footer div ul {
 
 
 
-
-
 .staff {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -374,15 +495,6 @@ footer div ul {
 
 }
 	
-@media only screen and (max-width: 700px) {
-.staff {
-
-	margin-top: 40vw;
-
-  }
-}
-
-
 
 .staff_nicolas {
 
@@ -434,6 +546,28 @@ footer div ul {
 
 }
 
+
+@media only screen and (max-width: 700px) {
+.staff {
+
+	margin-top: 190vw;
+  }
+
+.nombre_nicolas {
+	font-size: 2.8vw;
+}
+
+.nombre_luis {
+	font-size: 2.8vw;
+}
+
+.nombre_pedro {
+	font-size: 2.8vw;
+	}
+
+}
+
+
 .footer2 {
 	
 	display: flex;
@@ -455,6 +589,15 @@ footer div ul li {
 
 
 
+
+
+
+
+
+
+
+
+
 /* Estilos de COMO_FUNCIONA */
 
 .banner_como_funciona {
@@ -463,12 +606,6 @@ footer div ul li {
 	flex-direction: row;
 	justify-content: center;
 
-}
-
-@media only screen and (max-width: 800px) {
- .banner_como_funciona {
-    margin-top: 8vw;
-  }
 }
 
 
@@ -486,11 +623,6 @@ footer div ul li {
 
 }
 
-@media only screen and (max-width: 1200px) {
-.texto_banner_funciona {
-    height: 67vw;
-  }
-}
 
 
 .bajada_banner_funciona {
@@ -507,7 +639,7 @@ footer div ul li {
 .imagen_banner_funciona {
 
 	display: flex;
-	background-color: #f5f5fa;
+	
 
 }
 
@@ -547,6 +679,40 @@ footer div ul li {
 	margin-top: 2vw;
 }
 
+
+@media only screen and (max-width: 700px) {
+ .banner_como_funciona {
+    margin-top: 7vw;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+.imagen_banner_funciona {
+	height: 120vw;
+	margin-top: 20vw;
+}
+
+ .texto_banner_funciona {
+ 	font-size: 7vw;
+ 	line-height: 6vw;
+
+ } 
+
+.bajada_banner_funciona {
+	font-size: 4vw;
+	line-height: 6vw;
+	margin-top: 35vw;
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+.texto_banner_funciona {
+    height: 67vw;
+  }
+}
+
 .footer_funciona {
 
 	position: relative;
@@ -561,6 +727,16 @@ footer div ul li {
 	color: white;
 }
 
+
+
+
+
+
+
+
+
+
+
 /* Estilos de SERVICIOS */
 
 
@@ -568,17 +744,12 @@ footer div ul li {
 	position: relative;
 }
 
-@media only screen and (max-width: 500px) {
-.header_servicio {
-    margin-top: 5vw;
-  }
-}
 
 .headerservicios--texto-titulo1 {
 
   position: absolute;
-  top: 13vw;
-  left: 40vw;
+  top: 10vw;
+  left: 30vw;
   font-size: 1.8vw;
 
 }
@@ -586,7 +757,7 @@ footer div ul li {
 .headerservicios--texto-titulo2 {
 
   position: absolute;
-  top: 50vw;
+  top: 47vw;
   left: 20vw;
   font-size: 1.8vw; 
 
@@ -595,8 +766,8 @@ footer div ul li {
 .headerservicios--texto-titulo3 {
 
   position: absolute;
-  top: 85vw;
-  left: 40vw;
+  top: 75vw;
+  left: 38vw;
   font-size: 1.8vw;
 
 }
@@ -604,11 +775,64 @@ footer div ul li {
 .headerservicios--texto-titulo4 {
 
   position: absolute;
-  top: 140vw;
+  top: 110vw;
   left: 4vw;
   font-size: 1.8vw; 
 
 }
+
+
+@media only screen and (max-width: 500px) {
+.header_servicio {
+    margin-top: 5vw;
+  }
+}
+
+
+
+@media only screen and (max-width: 1500px) {
+ 
+ .header_servicio {
+ 	margin-top: 12vw;
+ }
+
+
+ .headerservicios--texto-titulo1 {
+
+ 	font-size: 2.3vw;
+ 	margin-top: -4vw;
+
+ }
+
+.headerservicios--texto-titulo2 {
+
+ 	font-size: 2.3vw;
+ 	margin-top: 6vw;
+ 	margin-left: -8vw;
+
+ }
+
+ .headerservicios--texto-titulo3 {
+
+ 	font-size: 2.3vw;
+ 	margin-top: 4vw;
+ 	margin-left: 8vw;
+
+ }
+
+.headerservicios--texto-titulo4 {
+
+ 	font-size: 2.3vw;
+ 	margin-top: 30vw;	
+
+ }
+
+}
+
+
+
+
+
 
 
 
@@ -658,7 +882,16 @@ footer div ul li {
     margin-top: 8vw;
 
   }
+
+
+
 }
+
+
+
+
+
+
 
 
 
@@ -709,21 +942,6 @@ footer div ul li {
 }
 
 
-@media only screen and (max-width: 700px) {
-.header--bannerayuda-titulo {
-    margin-top: 18vw;
-
-  }
-}
-
-@media only screen and (max-width: 700px) {
-.header--bannerayuda-subtitulo {
-    margin-top: 22vw;
-
-  }
-}
-
-
 .form_exterior {
 	
 	margin-right: 7vw;
@@ -732,10 +950,60 @@ footer div ul li {
 	
 }
 
+
+.enviar {
+	display: flex;
+	flex-direction: column;
+}
+
+
 textarea {
 
-	width: 60vw;
-	height: 30vw;
+	width: 40vw;
+	height: 20vw;
+}
+
+
+#boton_enviar {
+
+	margin-top: 3vw;
+	width: 10vw;
+	
+}
+
+
+@media only screen and (max-width: 700px) {
+
+.banner_contacto {
+	margin-top: 40vw;
+}
+
+.header--bannerayuda-titulo {
+    margin-top: 20vw;
+    font-size: 5vw;
+
+  }
+
+.header--bannerayuda-subtitulo {
+    margin-top: 24vw;
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	}
+
+textarea {
+	width: 70vw;
+}
+
+#boton_enviar {
+width: 20vw;
+
+	}
 }
 
 

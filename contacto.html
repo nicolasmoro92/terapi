@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Terapi App</title>
 
+  <!-- keywords -->
+
+  <meta name="keywords" content="terapia, psicologo, psicologia, depresion">
+
+  <title>Formulario de contacto</title>
+
+  <meta name="description" content="Espacio donde escribirnos un mail a traves del formulario">
+
 
 <!-- link de bootstrap -->
 
@@ -32,7 +40,7 @@
 <!-- navigation menu sacado de bootstrap -->
 
 <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light fixed-top">
-  <a class="navbar-brand" href="#">Terapi</a>
+  <a class="navbar-brand" href="index.html">Terapi</a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -130,7 +138,7 @@
 
       <div class="form-group col-md-4">
         <label for="Provincia">Provincia de residencia</label>
-        <input type="text" class="form-control">
+        <input type="text" class="form-control" placeholder="No escribas abreviaturas">
       </div>
 
 
@@ -152,11 +160,14 @@
 
  </div> 
 
-  
-       <textarea  class="col-md-12" placeholder="Dejanos tus comentarios..."> </textarea>
+      <div class="enviar">
+           <textarea placeholder="Dejanos tus comentarios..."></textarea>
+
+          <button type="submit" class="btn btn-primary" id="boton_enviar">Enviar</button>
+    </div>
 
 
-      <button type="submit" class="btn btn-primary">Enviar</button>
+
   </form>
 
 </div>
@@ -172,9 +183,9 @@
 
   <div>
     <ul>¡Visita nuestras redes sociales!
-      <li>Facebook</li>
-      <li>Twitter</li>
-      <li>Instagram</li>
+      <li> <img src="img/logo-facebook.svg" class="img-fluid" alt="logofacebook" id="logofacebook"> </li>
+      <li> <img src="img/logo-twitter.svg" class="img-fluid" alt="logotwitter" id="logotwitter"></li>
+      <li><img src="img/logo-instagram.svg" class="img-fluid" alt="logoinstagram" id="logoinstagram"> </li>
     </ul>
     
   </div>
